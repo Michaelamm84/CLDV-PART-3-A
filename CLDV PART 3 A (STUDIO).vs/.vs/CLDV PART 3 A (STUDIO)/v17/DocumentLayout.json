@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio)\\functionspart3\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 247,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 73,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\functionsPART3\\Function1.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Function1.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\functionsPART3\\Function1.cs",
+              "RelativeToolTip": "functionsPART3\\Function1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:02:19.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
