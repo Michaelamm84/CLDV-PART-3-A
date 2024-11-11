@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CLDV PART 3 A (STUDIO).props" />
+</Project>

@@ -1,0 +1,31 @@
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\appsettings.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).staticwebassets.runtime.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).exe
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).deps.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).runtimeconfig.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).dll
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\bin\Debug\net8.0\CLDV PART 3 A (STUDIO).pdb
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).AssemblyInfoInputs.cache
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).AssemblyInfo.cs
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).csproj.CoreCompileInputs.cache
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).RazorAssemblyInfo.cache
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).RazorAssemblyInfo.cs
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).sourcelink.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets\msbuild.CLDV PART 3 A (STUDIO).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets\msbuild.build.CLDV PART 3 A (STUDIO).props
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CLDV PART 3 A (STUDIO).props
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CLDV PART 3 A (STUDIO).props
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\scopedcss\bundle\CLDV PART 3 A (STUDIO).styles.css
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\scopedcss\projectbundle\CLDV PART 3 A (STUDIO).bundle.scp.css
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).dll
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\refint\CLDV PART 3 A (STUDIO).dll
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).pdb
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\CLDV PART 3 A (STUDIO).genruntimeconfig.cache
+C:\Users\Micha\Documents\varsitry documents\CLDV-PART-3-A\CLDV PART 3 A (STUDIO).vs\CLDV PART 3 A (STUDIO)\obj\Debug\net8.0\ref\CLDV PART 3 A (STUDIO).dll

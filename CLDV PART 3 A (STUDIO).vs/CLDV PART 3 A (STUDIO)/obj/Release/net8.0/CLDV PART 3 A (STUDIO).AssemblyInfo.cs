@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLDV PART 3 A (STUDIO)")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+923dbc9bc973f3550c89862139cb234dbd76b2c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLDV PART 3 A (STUDIO)")]
