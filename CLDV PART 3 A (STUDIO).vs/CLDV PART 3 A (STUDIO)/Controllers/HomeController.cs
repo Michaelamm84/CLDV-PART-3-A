@@ -1,32 +1,250 @@
-using CLDV_PART_3_A__STUDIO_.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using CLDV_PART_3_A__STUDIO_.Models;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using SemesterTwo.Services; // Include the new services namespace
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Net.Http.Headers;
+using CLDV_PART_3_A__STUDIO_.Services;
+//using Microsoft.Azure.Functions.Worker;
+
+
 
 namespace CLDV_PART_3_A__STUDIO_.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<HomeController> _logger;
+        private readonly IConfiguration _configuration;
+        private readonly CustomerService _customerService; // Inject CustomerService
+        private readonly BlobService _blobService; // Inject BlobService
+
+
+        public HomeController(IHttpClientFactory httpClientFactory, ILogger<HomeController> logger, IConfiguration configuration, CustomerService customerService, BlobService blobService)
         {
+            _httpClientFactory = httpClientFactory;
             _logger = logger;
+            _configuration = configuration;
+            _customerService = customerService;
+            _blobService = blobService;
         }
+        // GET: Home/Privacy
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        // POST: Home/Privacy
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Privacy(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                // Save the product to the database or perform other actions
+                // For example, you can use a service to save the product to Azure Table Storage
+
+                return RedirectToAction("Index");
+            }
+            return View(product);
+        }
+
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        // Existing method to store customer info in Table storage and new SQL insertion
+        [HttpPost]
+        public async Task<IActionResult> StoreTableInfo(CustomerProfile profile)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // Call Azure function to store data in Azure Table
+                    using var httpClient = _httpClientFactory.CreateClient();
+                    var baseUrl = _configuration["AzureFunctions:StoreTableInfo"];
+                    var requestUri = $"{baseUrl}&tableName=CustomerProfiles&partitionKey={profile.PartitionKey}&rowKey={profile.RowKey}&firstName={profile.FirstName}&lastName={profile.LastName}&phoneNumber={profile.PhoneNumber}&Email={profile.Email}";
+
+                    var response = await httpClient.PostAsync(requestUri, null);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Insert customer data into SQL database
+                        await _customerService.InsertCustomerAsync(profile);
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        _logger.LogError($"Error submitting client info: {response.ReasonPhrase}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Exception occurred while submitting client info: {ex.Message}");
+                }
+            }
+
+            return View("Index", profile);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        // Existing method to upload blob and new SQL insertion for blob data
+        [HttpPost]
+        public async Task<IActionResult> UploadBlob(IFormFile imageFile)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (imageFile != null)
+            {
+                try
+                {
+                    // Call Azure function to upload the blob
+                    using var httpClient = _httpClientFactory.CreateClient();
+                    using var stream = imageFile.OpenReadStream();
+                    var content = new StreamContent(stream);
+                    content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(imageFile.ContentType);
+
+                    var baseUrl = _configuration["AzureFunctions:UploadBlob"];
+                    string url = $"{baseUrl}&blobName={imageFile.FileName}";
+                    var response = await httpClient.PostAsync(url, content);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Convert image to byte array for SQL insertion
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            await imageFile.CopyToAsync(memoryStream);
+                            var imageData = memoryStream.ToArray();
+
+                            // Insert image data into SQL BlobTable
+                            await _blobService.InsertBlobAsync(imageData);
+                        }
+
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        _logger.LogError($"Error submitting image: {response.ReasonPhrase}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Exception occurred while submitting image: {ex.Message}");
+                }
+            }
+            else
+            {
+                _logger.LogError("No image file provided.");
+            }
+
+            return View("Index");
+        }
+
+        
+
+        //-----------------------------------------------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------------------------------------------------------
+        [HttpPost]
+        public async Task<IActionResult> UploadImageToFunction(IFormFile file)
+        {
+            if (file != null)
+            {
+                var containerName = "product-images";
+                var blobName = file.FileName;
+                using var httpClient = _httpClientFactory.CreateClient();
+
+                using var stream = file.OpenReadStream();
+                using var content = new StreamContent(stream);
+                content.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+
+                var requestUri = $"https://michaelammfunctions.azurewebsites.net/api/UploadBlob?code=fu9Cwbz0fe96MIxPK2UTTztSMqQJ9Pb8udh4v91ESoPbAzFumyHIpg%3D%3D&containerName={containerName}&blobName={blobName}";
+                var response = await httpClient.PostAsync(requestUri, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    // Handle error response
+                    _logger.LogError($"Failed to upload blob: {response.ReasonPhrase}");
+                    return StatusCode((int)response.StatusCode, response.ReasonPhrase);
+                }
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> UploadFileToFunction(IFormFile file)
+        {
+            if (file != null)
+            {
+                var shareName = "contracts-logs";
+                var fileName = file.FileName;
+                using var httpClient = _httpClientFactory.CreateClient();
+
+                using var stream = file.OpenReadStream();
+                using var content = new StreamContent(stream);
+                content.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+
+                var requestUri = $"https://michaelammfunctions.azurewebsites.net/api/UploadFile?code=MvwGdWsuLGWXyj8v6xRwvkkSKLBhUaEdLYeVLm0WERkSAzFut7G4_A%3D%3D&shareName={shareName}&fileName={fileName}";
+                var response = await httpClient.PostAsync(requestUri, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    // Handle error response
+                    _logger.LogError($"Failed to upload file: {response.ReasonPhrase}");
+                    return StatusCode((int)response.StatusCode, response.ReasonPhrase);
+                }
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> ProcessQueueMessage(string queueName, string message)
+        {
+            if (!string.IsNullOrEmpty(queueName) && !string.IsNullOrEmpty(message))
+            {
+                using var httpClient = _httpClientFactory.CreateClient();
+                var requestUri = $"https://michaelammfunctions.azurewebsites.net/api/ProcessQueueMessage?code=ZESFjBdlqIEpXI6Qd83uiOQsGkerRF2uZMhN7J9A6dESAzFuBCiweA%3D%3D&queueName={queueName}&message={message}";
+                var response = await httpClient.PostAsync(requestUri, null);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    // Handle error response
+                    _logger.LogError($"Failed to process queue message: {response.ReasonPhrase}");
+                    return StatusCode((int)response.StatusCode, response.ReasonPhrase);
+                }
+            }
+
+            return RedirectToAction("Index");
         }
     }
+
 }
+

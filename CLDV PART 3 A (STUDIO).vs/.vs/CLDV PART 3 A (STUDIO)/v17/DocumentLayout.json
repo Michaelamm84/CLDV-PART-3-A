@@ -1,16 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\",
+  "WorkspaceRootPath": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio)\\functionspart3\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\models\\productinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\models\\productinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\functions\\stroretableinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\functions\\stroretableinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\models\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\models\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\models\\orderinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\models\\orderinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\functions\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\functions\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\functions\\uploadblob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\functions\\uploadblob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\functions\\processqueuemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\functions\\processqueuemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\cldv part 3 a (studio)\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85969FCD-72E7-424E-B37E-546BF1C9AA39}|CLDV PART 3 A (STUDIO)\\CLDV PART 3 A (STUDIO).csproj|solutionrelative:cldv part 3 a (studio)\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\functions\\azurefunctionroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\functions\\azurefunctionroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|c:\\users\\micha\\documents\\varsitry documents\\cldv-part-3-a\\cldv part 3 a (studio).vs\\functionspart3\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D702AC33-8131-44BA-97E2-B69A65F24921}|functionsPART3\\functionsPART3.csproj|solutionrelative:functionspart3\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedHeight": 247,
@@ -44,24 +148,362 @@
         },
         {
           "DockedHeight": 73,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Startup.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Startup.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Startup.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Startup.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:16:24.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:09:12.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:09:09.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:08:58.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:08:54.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:44:01.201Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:42:24.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Program.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Program.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Program.cs",
+              "RelativeToolTip": "functionsPART3\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:36:37.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UploadFile.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\UploadFile.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Functions\\UploadFile.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\UploadFile.cs",
+              "RelativeToolTip": "functionsPART3\\Functions\\UploadFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:36:11.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UploadBlob.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\UploadBlob.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Functions\\UploadBlob.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\UploadBlob.cs",
+              "RelativeToolTip": "functionsPART3\\Functions\\UploadBlob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:35:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StroreTableInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\StroreTableInfo.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Functions\\StroreTableInfo.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\StroreTableInfo.cs",
+              "RelativeToolTip": "functionsPART3\\Functions\\StroreTableInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:35:38.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProcessQueueMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\ProcessQueueMessage.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Functions\\ProcessQueueMessage.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\ProcessQueueMessage.cs",
+              "RelativeToolTip": "functionsPART3\\Functions\\ProcessQueueMessage.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:35:21.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AzureFunctionRoot.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\AzureFunctionRoot.cs",
+              "RelativeDocumentMoniker": "functionsPART3\\Functions\\AzureFunctionRoot.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Functions\\AzureFunctionRoot.cs",
+              "RelativeToolTip": "functionsPART3\\Functions\\AzureFunctionRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:35:00.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Program.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Program.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Program.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:34:00.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T16:33:33.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T16:33:13.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\TableService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\TableService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\TableService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:32:49.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QueueService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\QueueService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\QueueService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\QueueService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\QueueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:32:34.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\ProductService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:32:16.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\OrderService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:31:57.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\FileService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\FileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:31:43.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\CustomerService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:31:26.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Services\\BlobService.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Services\\BlobService.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Services\\BlobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:31:11.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\ProductInformation.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Models\\ProductInformation.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\ProductInformation.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Models\\ProductInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:30:39.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\OrderInformation.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Models\\OrderInformation.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\OrderInformation.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Models\\OrderInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:24:45.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "CLDV PART 3 A (STUDIO)\\Models\\CustomerProfile.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\CLDV PART 3 A (STUDIO)\\Models\\CustomerProfile.cs",
+              "RelativeToolTip": "CLDV PART 3 A (STUDIO)\\Models\\CustomerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:24:15.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Function1.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\functionsPART3\\Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Function1.cs",
               "RelativeDocumentMoniker": "functionsPART3\\Function1.cs",
-              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO)\\functionsPART3\\Function1.cs",
+              "ToolTip": "C:\\Users\\Micha\\Documents\\varsitry documents\\CLDV-PART-3-A\\CLDV PART 3 A (STUDIO).vs\\functionsPART3\\Function1.cs",
               "RelativeToolTip": "functionsPART3\\Function1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T20:02:19.578Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

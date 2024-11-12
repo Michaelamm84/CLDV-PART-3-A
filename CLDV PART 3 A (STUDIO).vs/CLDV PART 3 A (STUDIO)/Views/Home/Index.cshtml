@@ -1,8 +1,81 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model CLDV_PART_3_A__STUDIO_.Models.CustomerProfile
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div style="width: 60%; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+    <!-- Select Option -->
+    <div style="margin-bottom: 20px;">
+        <h3 style="border-bottom: 2px solid #ccc; padding-bottom: 10px;">Select Action</h3>
+        <select id="actionSelect" style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: 1px solid #ccc;" onchange="showForm()">
+            <option value="">-- Select an action --</option>
+            <option value="uploadImage">Upload Profile Image</option>
+            <option value="addProfile">Add Customer Profile</option>
+            <option value="processOrder">Process Order</option>
+            <option value="uploadContract">Upload Contract</option>
+        </select>
+    </div>
+
+    <!-- Upload Image Form -->
+    <div id="uploadImageForm" style="display: none; margin-bottom: 20px;">
+        <h3 style="border-bottom: 2px solid #ccc; padding-bottom: 10px;">Upload Profile Image</h3>
+        <form asp-action="UploadImageToFunction" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" style="width: 100%; padding: 8px; margin-top: 10px;" />
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; margin-top: 10px; border-radius: 5px; cursor: pointer;">Upload</button>
+        </form>
+    </div>
+
+  
+
+    <!-- Add Customer Profile Form -->
+    <div id="addProfileForm" style="display: none; margin-bottom: 20px;">
+        <h3 style="border-bottom: 2px solid #ccc; padding-bottom: 10px;">Add Customer Profile</h3>
+        <form asp-action="AddCustomerProfile" method="post">
+            <input type="text" name="FirstName" placeholder="First Name" style="width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+            <input type="text" name="LastName" placeholder="Last Name" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+            <input type="email" name="Email" placeholder="Email" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+            <input type="text" name="PhoneNumber" placeholder="Phone Number" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Add Profile</button>
+        </form>
+    </div>
+
+    
+    <!-- Process Queue Message Form -->
+    <div id="processOrderForm" style="display: none; margin-bottom: 20px;">
+        <h3 style="border-bottom: 2px solid #ccc; padding-bottom: 10px;">Process Queue Message</h3>
+        <form asp-action="ProcessQueueMessage" method="post">
+            <input type="hidden" name="queueName" value="processing order" />
+            <input type="text" name="message" placeholder="Message" style="width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Process Message</button>
+        </form>
+    </div>
+
+    <!-- Upload Contract Form -->
+    <div id="uploadContractForm" style="display: none; margin-bottom: 20px;">
+        <h3 style="border-bottom: 2px solid #ccc; padding-bottom: 10px;">Upload Contract</h3>
+        <form asp-action="UploadContract" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" style="width: 100%; padding: 8px; margin-top: 10px;" />
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; margin-top: 10px; border-radius: 5px; cursor: pointer;">Upload Contract</button>
+        </form>
+    </div>
 </div>
+
+<script>
+    function showForm() {
+        // Hide all forms
+        document.getElementById('uploadImageForm').style.display = 'none';
+        document.getElementById('addProfileForm').style.display = 'none';
+        document.getElementById('processOrderForm').style.display = 'none';
+        document.getElementById('uploadContractForm').style.display = 'none';
+
+        // Show the selected form
+        var selectedAction = document.getElementById('actionSelect').value;
+        if (selectedAction === 'uploadImage') {
+            document.getElementById('uploadImageForm').style.display = 'block';
+        } else if (selectedAction === 'addProfile') {
+            document.getElementById('addProfileForm').style.display = 'block';
+        } else if (selectedAction === 'processOrder') {
+            document.getElementById('processOrderForm').style.display = 'block';
+        } else if (selectedAction === 'uploadContract') {
+            document.getElementById('uploadContractForm').style.display = 'block';
+        }
+    }
+</script>
